@@ -6,4 +6,20 @@ public class Node<T> {
         this.item = item;
         this.next = null;
     }
+
+    public T getItem() {
+        return this.item;
+    }
+
+    public void setItem(T item) {
+        this.item = item;
+    }
+
+    public Node<T> getNext() {
+        return this.next;
+    }
+
+    public void getNext(Node<T> next) {
+        this.next = next;
+    }
 }
