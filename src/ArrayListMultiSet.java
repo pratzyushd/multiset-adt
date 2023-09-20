@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class ArrayListMultiSet extends MultiSet {
+public class ArrayListMultiSet implements MultiSet {
     private ArrayList<Object> list;
 
     public ArrayListMultiSet() {
