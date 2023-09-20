@@ -19,7 +19,7 @@ public class Node<T> {
         return this.next;
     }
 
-    public void getNext(Node<T> next) {
+    public void setNext(Node<T> next) {
         this.next = next;
     }
 }
